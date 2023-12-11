@@ -1,11 +1,11 @@
 <script>
 export default {
-    name : "BasicPage"
+    name : "HomePage"
 }
 </script>
 
 <template>
-    <h1>
-        Basic Page
-    </h1>
+    <h2>
+        Home Page
+    </h2>
 </template>

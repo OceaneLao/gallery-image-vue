@@ -1,11 +1,11 @@
 <script>
     export default {
-        name : "ImageListPage"
+        name : 'GalleryPage'
     }
 </script>
 
 <template>
     <h2>
-        Image List Page
+        Gallery Page
     </h2>
 </template>

@@ -1,20 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import BasicPage from '../views/BasicPage.vue'
+import HomePage from '../views/HomePage.vue'
 import AboutPage from '../views/AboutPage.vue'
-import ImageListPage from '../views/ImageListPage.vue'
+import GalleryPage from '../views/GalleryPage.vue'
 import ImageDetailPage from '../views/ImageDetailPage.vue'
 
 const routes = [
   {
     name: 'Home',
     path: '/',
-    component: BasicPage
+    component: HomePage
   },
   {
-    name: 'ImageList',
-    path: '/images',
-    component: ImageListPage
+    name: 'Gallery',
+    path: '/gallery',
+    component: GalleryPage
   },
   {
     name : "ImageDetail",
